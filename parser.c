@@ -65,7 +65,7 @@ char *find_path(info_t *info, char *pathstr, char *cmd)
 	int i = 0, curr_pos = 0;
 	char *path;
 
-	if (!pathst)
+	if (!pathstr)
 		return (NULL);
 	if ((_strlen(cmd) > 2) && starts_with(cmd, "./"))
 	{
