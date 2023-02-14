@@ -32,6 +32,7 @@ char *_memset(char *s, char b, unsigned int n)
  * ffree - frees a string of strings
  * @pp: string of strings
  */
+
 void ffree(char **pp)
 {
 	char **a = pp;
@@ -71,4 +72,3 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	free(ptr);
 	return (p);
 }
-

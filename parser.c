@@ -18,7 +18,6 @@
  */
 
 /* Nice22 @zinzinpolice */
-
 int is_cmd(info_t *info, char *path)
 {
 	struct stat st;
@@ -41,6 +40,7 @@ int is_cmd(info_t *info, char *path)
  * @stop: stopping index
  * Return: pointer to new buffer
  */
+
 char *dup_chars(char *pathstr, int start, int stop)
 {
 	static char buf[1024];

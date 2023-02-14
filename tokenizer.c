@@ -18,7 +18,6 @@
 */
 
 /* Nice22 @zinzinpolice */
-
 char **strtow(char *str, char *d)
 {
 	int i, j, k, m, numwords = 0;

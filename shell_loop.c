@@ -18,7 +18,6 @@
  */
 
 /* Nice22 @zinzinpolice */
-
 int hsh(info_t *info, char **av)
 {
 	ssize_t r = 0;
