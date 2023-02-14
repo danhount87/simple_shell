@@ -23,10 +23,17 @@ size_t list_len(const list_t *h)
 
 	while (h)
 	{
+<<<<<<< HEAD
 		h = h->next;
 		i++;
 	}
 	return (i);
+=======
+        h = h->next;
+  i++;
+ }
+ return (i);
+>>>>>>> d0749fc991a8919560f15ff7c29aa130fa53928c
 }
 
 /**
