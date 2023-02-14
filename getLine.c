@@ -96,7 +96,7 @@ ssize_t get_input(info_t *info)
  * @buf: buffer
  * @i: size
  * Return: r
- * */
+ */
 ssize_t read_buf(info_t *info, char *buf, size_t *i)
 {
 	ssize_t r = 0;
