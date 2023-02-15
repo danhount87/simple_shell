@@ -1,14 +1,4 @@
 #include "shell.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <string.h>
-#include <sys/types.h>
-#include <sys/wait.h>
-#include <sys/stat.h>
-#include <limits.h>
-#include <fcntl.h>
-#include <errno.h>
 
 /**
  * is_chain - test if current char in buffer is a chain delimeter
@@ -154,4 +144,3 @@ int replace_string(char **old, char *new)
 	*old = new;
 	return (1);
 }
-
